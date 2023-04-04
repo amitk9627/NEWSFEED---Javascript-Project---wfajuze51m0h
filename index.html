@@ -1,1 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
+    <!-- global css -->
+    <link rel="stylesheet" href="./assets/styles/global.css">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>myNewsFeed</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="sub-container" onclick="loadHome()"><h1 >MY NEWSFEED</h1> </div>
+      <div class="button">
+        <button type="button" onclick="loadAuthorName()" class="btn-pad btn btn-warning btn-lg ">LOAD SAVED NEWS</button>
+        <button type="button" onclick="loadAuthorName()" class="btn-pad2 btn btn-warning btn-lg ">LOAD NEW NEWS</button>        
+      </div>      
+    </div>
+
+    <div class="header-section">
+      <h1 class="header1">GET LATEST NEWS</h1>
+      <h1 class="header2">STAY UPDATED</h1>
+    </div>
+
+    <div id="news-card" class="news-card">
+      <div id="author-card"></div>
+      <div id="author-news"></div>
+      <div id="likes-button">
+        
+        
+      </div>
+    </div>
+
+    <script src="/App.js"></script>
+
+  </body>
+</html>
